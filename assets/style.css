@@ -33,36 +33,129 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 main{
-
+justify-content: center;
+align-items: center;
 }
 
 section {
-
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
-aside{
-    float: left;
-    width: 20%;
-    min-width: 100px;
+aside {
+justify-content: center;
+text-align: center;
+min-width: 25%;
+} 
+
+article {
+    justify-content: center;
+    text-align: center;
+    width: 75%;
 }
 
-article{
-    float: right;
-    width: 20%;
+/* Style picture grid */
+#picture-grid {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 15px;
+    grid-template-areas: 
+    "pic1 pic1"
+    "pic2 pic3"
+    "pic4 pic5"
+    ;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img:hover{
+    filter: brightness(50%);
+}
+
+h3{
+    text-align: center;
+}
+
+#picture1{
+    height: 300px;
+    width: auto;
+    
+}
+
+#pic1 {
+display: grid;
+grid-area: pic1;
+min-height: 150px;
+max-width: 100%;
+}
+#pic2 {
+display: grid;
+grid-area: pic2;
+
+}
+#pic3 {
+display: grid;
+grid-area: pic3;
+min-height: 50px;
+min-width: 50px;
+}
+
+#pic4 {
+    display: grid;
+    grid-area: pic4;
+    min-height: 50px;
     min-width: 50px;
 }
 
+#pic5 {
+    display: grid;
+    grid-area: pic5;
+    min-height: 50px;
+    min-width: 50px;
+
+}
+
+.heading {
+    white-space: nowrap;
+}
+
 p {
-    text-align: left;
+    text-align: left;  
+}
+
+
+
+footer{
+    padding-top: 15px;
+    margin-left: 100px;
     float: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-footer {
-
+footer ul  {
+    display: inline-block;
+    margin-right: 100px;
+    list-style-type: none;
 }
+
+@media screen and (max-width: 992px) {
+    
+}
+
+
+
