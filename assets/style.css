@@ -134,7 +134,10 @@ min-width: 50px;
 }
 
 p {
-    text-align: left;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left; 
+
 }
 
 
@@ -154,7 +157,10 @@ footer ul  {
 }
 
 @media screen and (max-width: 992px) {
-    
+    header nav ul {
+            width: 50%;
+    }
+
 }
 
 
