@@ -26,4 +26,13 @@ The syntax used in the CSS file was:
 
 Screenshot:
 
+![screenshot](Screenshot-of-Assignment.jpeg "Screenshot")
+
+
+
+
 Link to Deployed Application
+
+https://chrisjackson1.github.io/Advanced-CSS-Portfolio-/
+
+
