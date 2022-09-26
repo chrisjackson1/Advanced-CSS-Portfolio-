@@ -18,7 +18,7 @@ Screenshot:
 
 Link to Deployed Application
 
-file:///Users/chrisjackson/Desktop/homework/Advanced-CSS-Portfolio-/index.html
+https://chrisjackson1.github.io/Advanced-CSS-Portfolio-/
 
 https://family-cookbook-astokes.herokuapp.com/
 
