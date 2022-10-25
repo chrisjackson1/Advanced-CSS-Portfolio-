@@ -1,9 +1,10 @@
 body{
-  background-color: orangered;
+  background-color: white;
 }
 
 h2{
-    color: white;
+    color: rgb(103, 151, 195);
+
 }
 
 h3 {
@@ -11,13 +12,11 @@ h3 {
 }
 
 .topnav {
-    background-color: rgb(199, 30, 30);
+    background-color: rgb(187, 203, 230);
     overflow: hidden;
     padding-bottom: 1px;
     
   }
-
-
 
   .topnav a {
     float: right;
@@ -36,36 +35,59 @@ h3 {
   * {
     box-sizing: border-box;
   }
+main {
+  text-align: center;
+  display: flex;
+}
 
-  .cards {
+.herobox3{
+  text-align: center;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.herobox4{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.cards {
     text-align: center;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-evenly
 }
 
 .card1 {
+  background-image: url(../image-background-card1.jpg);
   background-size: cover;
   background-position: bottom;
   min-height: 250px;
-  width: 30%;
-  background-image: url(images/);
-  
+  width: 60%;
   }
   
   .card2 {
-      background-image: url(images/image-background-card2.jpg);
+      background-image: url(../image-background-card2.jpg);
       min-height: 250px;
-      width: 30%;
+      width: 60%;
       background-position: bottom;
+      background-size: cover;
+      
   }
   
   .card3{
-      background-image: url(images/image-background-card3.jpg);
-      min-height: 250px;
-      width: 30%;
-      background-position: bottom;
+    background-image: url(../image-background-card3.jpg);
+    min-height: 250px;
+    width: 60%;
+    background-position: bottom;
+    background-size: cover;
   
   }
+
+  .card1 h2 {
+    text-decoration: none;
+  }
+
   
   /* Clear floats after the columns */
   .row:after {
@@ -84,13 +106,14 @@ h3 {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
   }
 
   .side {
     -ms-flex: 30%; 
     flex: 30%;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding-bottom: 20px;
   }
 
   .side h2 {
