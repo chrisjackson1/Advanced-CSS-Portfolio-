@@ -40,11 +40,13 @@ main {
   display: flex;
 }
 
-.herobox3{
+.herobox3 {
   text-align: center;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
+
+
 
 .herobox4{
   text-align: center;
@@ -64,14 +66,16 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 60%;
+  margin-bottom: 10%;
   }
   
   .card2 {
       background-image: url(../image-background-card2.jpg);
       min-height: 250px;
       width: 60%;
-      background-position: bottom;
       background-size: cover;
+      background-position: bottom;
+      margin-bottom: 10%;
       
   }
   
@@ -81,6 +85,7 @@ main {
     width: 60%;
     background-position: bottom;
     background-size: cover;
+    margin-bottom: 10%;
   
   }
 
@@ -102,11 +107,10 @@ main {
   }
 
   .row {  
-   
+
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-
   }
 
   .side {
@@ -129,11 +133,8 @@ main {
     background-color: white;
   }
 
-  .footer {
-    padding: 20px;
+  footer h3 {
     text-align: center;
-
-    color: rgb(15, 15, 227);
   }
 
 
