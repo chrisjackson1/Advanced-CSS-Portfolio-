@@ -46,7 +46,18 @@ main {
     justify-content: space-evenly;
 }
 
+.fa-github{
+  color: white;
+}
 
+.fa-brands {
+  size: 70px;
+}
+
+.fa-headphones-simple{
+  size: 30px;
+  color: white;
+}
 
 .herobox4{
   text-align: center;
@@ -57,7 +68,8 @@ main {
 .cards {
     text-align: center;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    text-decoration: none;
 }
 
 .card1 {
@@ -88,11 +100,6 @@ main {
     margin-bottom: 10%;
   
   }
-
-  .card1 h2 {
-    text-decoration: none;
-  }
-
   
   /* Clear floats after the columns */
   .row:after {
@@ -112,12 +119,14 @@ main {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
+.img{
+  size: 30px;
+}
   .side {
-    -ms-flex: 30%; 
+    -ms-flex: 10%; 
     flex: 30%;
     background-color: #f1f1f1;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .side h2 {
