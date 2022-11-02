@@ -42,6 +42,14 @@ body {
   color: black;
 }
 
+.topnav h2 {
+  color: white;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-style: italic;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -100,7 +108,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: #294e77;
   padding: 10px;
   text-align: center;
 }
@@ -108,13 +116,13 @@ body {
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
-  color: #4b4c4d;
+  color: #14305d;
 }
 
 .footer .social a {
   font-size: 24px;
   color: inherit;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(175, 84, 84);
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -136,9 +144,46 @@ body {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .footer ul a {
   color: inherit;
   text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(189, 78, 78);
+}
+
+.list {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+color: white;
+}
+.fa-twitter {
+color: white;
+}
+
+.fa-tiktok {
+  color: white;
 }
